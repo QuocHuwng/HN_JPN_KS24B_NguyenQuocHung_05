@@ -101,9 +101,15 @@ int main(){
 					printf("%d ", arr[i]);
 				}
 				printf("\n");
-			break; 
+			break;
+			case 11:
+				printf("Thoat chuong trinh\n");
+			 break;
+			 default:
+                printf("Lua chon khong hop le\n");
+                break;
 		}
-	}while(luachon!=7);
+	}while(luachon!=11);
 
     return 0; 
 }
